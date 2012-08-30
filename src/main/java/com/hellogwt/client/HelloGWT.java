@@ -6,6 +6,7 @@ import com.google.gwt.user.client.ui.RootPanel;
 
 public class HelloGWT implements EntryPoint {
 
+    @Override
     public void onModuleLoad() {
         Label greetingLabel = new Label("Hello, GWT!");
         RootPanel.get().add(greetingLabel);
